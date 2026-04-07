@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff"/>
+  <polygon points="100,15 155,47 155,113 100,145 45,113 45,47"
+           fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+  <polygon points="100,23 148,51 148,109 100,137 52,109 52,51"
+           fill="#eff6ff" stroke="none"/>
+  <line x1="52" y1="80" x2="148" y2="80"
+        stroke="#2563eb" stroke-width="2" opacity="0.45"/>
+  <text x="100" y="74" font-family="Georgia, serif" font-weight="700"
+        font-size="46" fill="#0f172a" text-anchor="middle">V</text>
+  <text x="100" y="120" font-family="Georgia, serif" font-weight="700"
+        font-size="46" fill="#2563eb" text-anchor="middle">G</text>
+</svg>

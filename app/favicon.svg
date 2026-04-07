@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .bg { fill: #ffffff }
+    .hex-stroke { stroke: #2563eb; fill: none }
+    .hex-fill { fill: #eff6ff }
+    .divider { stroke: #2563eb }
+    .letter-v { fill: #0f172a }
+    .letter-g { fill: #2563eb }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0f172a }
+      .hex-stroke { stroke: #3b82f6 }
+      .hex-fill { fill: #1e3a5f }
+      .divider { stroke: #3b82f6 }
+      .letter-v { fill: #ffffff }
+      .letter-g { fill: #3b82f6 }
+    }
+  </style>
+  <rect class="bg" width="200" height="200"/>
+  <polygon class="hex-stroke" points="100,15 155,47 155,113 100,145 45,113 45,47" stroke-width="4"/>
+  <polygon class="hex-fill" points="100,23 148,51 148,109 100,137 52,109 52,51"/>
+  <line class="divider" x1="52" y1="80" x2="148" y2="80" stroke-width="2" opacity="0.45"/>
+  <text class="letter-v" x="100" y="74" font-family="Georgia, serif" font-weight="700" font-size="46" text-anchor="middle">V</text>
+  <text class="letter-g" x="100" y="120" font-family="Georgia, serif" font-weight="700" font-size="46" text-anchor="middle">G</text>
+</svg>

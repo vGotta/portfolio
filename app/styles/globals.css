@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "./variables.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./navbar.css";
+@import "./hero.css";
+@import "./about.css";
+@import "./stack.css";
+@import "./projects.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./services.css";
+@import "./project-page.css";
